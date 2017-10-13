@@ -1,0 +1,8 @@
+var a : int
+for i : 1..8
+	put i**3, ""
+end for
+for b : 1..8
+	put a += b**3
+end for
+put , a,""
