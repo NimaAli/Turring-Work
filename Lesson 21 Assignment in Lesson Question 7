@@ -1,0 +1,8 @@
+var a, b : real
+put "Enter two numbers to find their average: "
+loop
+  get a
+  get b
+  put (a+b)/2, "is the average."
+  exit when (a+b)/2=0
+end loop
