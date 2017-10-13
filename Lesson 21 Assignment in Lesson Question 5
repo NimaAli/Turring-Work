@@ -1,0 +1,16 @@
+% Use constants next time when dealing with values given from the text
+var aMark, above : int
+above := 0
+put "Enter ten marks out of 100: "
+for i : 1 .. 10
+  loop
+    get aMark
+    exit when aMark > 0 and aMark < 101
+    put "Invalid mark, try again"
+  end loop
+  if aMark >= 70 then
+    put above + 1
+  end if
+end loop
+
+put above, "are or is the amount of mark(s) you got over 69/100."
