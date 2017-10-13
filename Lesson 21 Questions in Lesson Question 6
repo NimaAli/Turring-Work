@@ -1,0 +1,7 @@
+var temp : int 
+put "Enter temperatures in whole numbers: "
+loop
+  get temp
+  exit when temp > 30
+end loop
+put "Wow, that’s hot"
