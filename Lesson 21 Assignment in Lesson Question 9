@@ -1,0 +1,18 @@
+var a, b, total : int
+total := 0
+put "Enter two whole positive numbers with the first being lower than the second: "
+loop
+  get a
+  get b
+  exit when a < b 
+  put "Invalid entry try again"
+end loop
+for i : a .. b
+  total += i
+end for
+put "the two numbers added two whats inbetween them is ", total,"."
+
+
+  
+  
+  
