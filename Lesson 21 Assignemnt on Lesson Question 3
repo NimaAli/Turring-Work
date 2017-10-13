@@ -1,0 +1,13 @@
+
+var a, b : int
+loop
+put "Enter a number that's factors you want to see: "
+get a
+exit when a mod 1 = 0
+put "That is not a whole number, try again.  It can't be too big or negative either!"
+end loop
+for i : 1..a
+	if i mod a = 0 then 
+    	put "Your factors are", i,","
+    end if
+end for
