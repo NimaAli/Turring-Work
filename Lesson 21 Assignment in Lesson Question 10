@@ -1,0 +1,9 @@
+var a, b, years : int
+years := 0
+loop
+  exit when a > b
+  years += 1
+  a := 5000000+5000000*0.03
+  b := 7000000+7000000*0.02
+end loop
+put "It will take ", years," for the first countries population to surpass the second's."
