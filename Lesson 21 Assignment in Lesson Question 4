@@ -1,4 +1,5 @@
 var a : int
+a := 0
 for i : 1..8
 	put i**3, ""
 end for
@@ -6,3 +7,25 @@ for b : 1..8
 	put a += b**3
 end for
 put , a,""
+%or you could
+var b: int
+b := 1**3+2**3+3**3+4**3+5**3+6**3+7**3+8**3+
+put b, ""
+
+
+var c : int
+put "Enter the number in which you want displayed lat (the highest number you want displayed): "
+get c
+for i : 1..c
+	put i**3, ""
+end for
+
+
+var d, e : int
+put "Enter the number in which you want displayed lat (the highest number you want displayed): "
+get e
+put "Enter the lowest cubed number you want displayed: "
+get d
+for i : d .. e
+	put i**3, ""
+end for
