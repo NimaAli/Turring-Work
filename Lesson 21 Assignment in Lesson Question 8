@@ -1,0 +1,12 @@
+var a, b : real
+var years : int
+%ask if every time it does the loop the years go up, i think tahts how it works
+loop
+  exit when a < b
+  years += 1
+  a := 300*1.25
+  b := 280*2
+end loop
+put "It would take ", years," for Max to show Julia that the long term is worth it!!!"
+
+  
