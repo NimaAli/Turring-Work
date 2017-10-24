@@ -1,0 +1,10 @@
+var word : string 
+put "Enter your to be added 9's to word: "..
+get word
+for i : 1 .. length(word)
+  if index("aeiouAEIOU", word) =0 then
+    put word(i), ""..
+  else 
+    put "9"..
+  end if
+end for
