@@ -1,0 +1,10 @@
+var word : string
+put "Enter the word that shall be changed: "..
+get word
+for i : 1 .. length(word)
+  if index("aeiouAEIUO", word) =0 then
+    put "9"..
+  else 
+    put word(i), ""..
+  end if
+end for
