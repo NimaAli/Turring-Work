@@ -1,5 +1,6 @@
 var word : string
 put "Enter a word for it's d's to be removed: "..
+get word
 for i : 1 .. length(word)
   if word(i) not= "d" and not= "D" then
     put word(i), ""..
