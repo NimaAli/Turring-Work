@@ -1,5 +1,6 @@
 var word : string
 put "Enter your to be voweless word: "..
+get word
 for i : 1 .. length(word)
   if index("aeiouAEIOUyY", word) =0 then
     put word(i), ""..
