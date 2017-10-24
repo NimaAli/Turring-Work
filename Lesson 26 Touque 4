@@ -1,0 +1,8 @@
+var word : string
+var NumOfLetters : string := ""
+put "Enter your to be switched around word: "..
+get word
+put "Enter how many letters is half the amount of letters in this word: "..
+get NumOfLetters
+put word(NumOfLetters .. *)..
+put word(1 .. NumOfLetters - 1)
