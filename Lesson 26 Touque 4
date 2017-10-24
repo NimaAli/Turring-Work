@@ -6,3 +6,5 @@ put "Enter how many letters is half the amount of letters in this word: "..
 get NumOfLetters
 put word(NumOfLetters .. *)..
 put word(1 .. NumOfLetters - 1)
+
+%TRY AGAIN BOY 
