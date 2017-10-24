@@ -1,0 +1,19 @@
+var word : string 
+put "Enter the word: "..
+get word  
+for i : 1 .. length(word)
+  if index("a", word(i)) not=0 then
+    put "A"..
+  elsif index("e", word(i)) not=0 then
+    put "E"..
+  elsif index("i", word(i)) not=0 then
+    put "I"..
+  elsif index("o", word(i)) not=0 then
+    put "O".. 
+  elsif index("u", word(i)) not=0 then
+    put "U"..
+  else 
+    put word(i), ""..
+  end if
+end for
+  
