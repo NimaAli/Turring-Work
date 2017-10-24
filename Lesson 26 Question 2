@@ -4,5 +4,5 @@ get word
 for i : 1 .. length(word)
   if index("aeiouAEIOUyY", word) =0 then
     put word(i), ""..
-  ed if
+  end if
 end for
