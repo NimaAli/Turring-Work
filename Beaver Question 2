@@ -1,0 +1,22 @@
+var number : int
+var wrongtries : int :=
+loop
+  randint ( number, 1, 100)
+  exit when number >= 90 and number not= 100
+  wrongtries += 1
+end loop
+put "The number of wrong tries was ", wrongtries," until the program got a ", number,"."
+
+put skip, skip, skip, ""
+% variation
+
+var nnumber : int 
+var wwrongtries : int := 0
+loop
+  randint ( number, 1, 100 )
+  exit when number mod 5 = 0 and number mod 10 not= 0
+  wwrongtries += 1
+end loop
+put "The number of wrong tries was ", wrongtries," until the program got a ", number,"."
+
+  
