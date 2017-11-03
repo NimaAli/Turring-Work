@@ -1,0 +1,13 @@
+var die, die2 : int
+var doubles,  petit, uneven : int := 0
+
+for i : 1 .. 30
+  randint ( die, 1, 6 )
+  randint ( die2, 1, 6 )
+  if 
+  elsif die = die2 then
+    doubles += 1
+  end if
+end for
+
+  
