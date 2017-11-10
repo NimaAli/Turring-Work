@@ -1,7 +1,7 @@
 function tri_area ( base, height : real ) : real
     var area : real
     real := base*height/2
-    result real
+    result real 
 end tri_area
 
 % main program
@@ -14,4 +14,4 @@ rand ( height )
 height *= 100
 height += 1
 
-put tri_area ( base, height ) 
+put tri_area ( base, height ) : 5 : 5 
