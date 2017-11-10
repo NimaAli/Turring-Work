@@ -1,0 +1,23 @@
+function find_y ( m, x, b : real ) : real
+    var y : real
+    y := m*x+b
+    result y
+end find_y
+
+% main program
+
+var m, x, b : real
+var continue : string
+put "Until you enter no , the program will find y for you for the equation y = mx+b"
+loop
+    put "Do you wish to continue : "..
+    get continue
+    exit when continue := "no"
+    put " Enter the value of m: "..
+    get m
+    put " Enter the value of x: "..
+    get x
+    put " Enter the value of b: "..
+    get b
+    put "y = ", find_y ( m, x, b ) : 7 : 7," ."
+end loop
