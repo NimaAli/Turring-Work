@@ -1,0 +1,12 @@
+function cm_m ( cm : real ) : real
+    var m : real
+    m := cm/100
+    result m
+end cm_m
+
+% main program
+
+var cm : real
+put "Enter an amount of centimeters to get its value in meters : "..
+get cm
+put cm_m ( cm )
