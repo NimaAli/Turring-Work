@@ -1,0 +1,20 @@
+function StartWitS (word : string) : boolean
+    var DoesIt : boolean := false
+    if index("sS", word(1)) then 
+        DoesIt := true
+    else 
+        result DoesIt
+    end if
+    result DoesIt
+end StartWitS
+
+% main program
+
+var word : string
+put "Enter a word : "..
+get word
+if StartWitS(word) then
+    put "Your word begins with letter s,"
+else
+    put "Your word does not beging with the letter s."
+end if
