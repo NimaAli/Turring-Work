@@ -1,7 +1,7 @@
 function tri_area ( base, height : real ) : real
     var area : real
-    real := base*height/2
-    result real 
+    area := base*height/2
+    result area 
 end tri_area
 
 % main program
