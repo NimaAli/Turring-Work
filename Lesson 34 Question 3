@@ -1,0 +1,25 @@
+
+3. A word is a palindrome if it is the same in reverse.  You should write a function that checks whether a specific word is a palindrome.
+Write a program to test your function.  Hint: you could use two functions!  The one you write which checks whether it is a palindrome
+and the one you wrote before to reverse a string.
+function pal_check (word : string) : boolean
+    var new_word : string := ""
+    for decreasing i : length(word) .. 1
+        new_word += word(i)
+    end for
+% if I were to use two functions this would be the second one
+    if new_word = word then 
+        result true
+    else 
+        result false
+    end if
+end pal_check
+
+var user_word : string
+put "Enter a word to check if it's a palindrome : "..
+get user_word
+if pal_check(user_word) then
+    put "Your word is a palindrome."
+else
+    put "Your word isn't a palindrome."
+end if
