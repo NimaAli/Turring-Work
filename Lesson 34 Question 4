@@ -1,0 +1,16 @@
+function doubleh (number : real) : real
+    var double_number : real
+    double_number := number*2
+    result double_number
+end doubleh 
+
+% main program
+
+var number : real
+put "Enter a number that you with to be doubled, a lot : "..
+loop
+    exit when number >= 999999
+    number := doubleh(number)
+    put number
+end loop
+    
