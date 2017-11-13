@@ -1,5 +1,0 @@
-% Find the average word length out of 10 words, output the 
-% longest and shortest words and words with a length of 3.
-var word, long, short : string
-var totalword, allword : string := ""
-
