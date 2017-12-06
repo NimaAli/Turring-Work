@@ -1,0 +1,14 @@
+var r1, r2 : int
+var sumOfRolls : int
+var eachTotalRolled : array 2..12 of int
+
+for i : 2..12
+    eachTotalRolled(i) := 0
+end for
+
+for n : 1..50
+    randint ( r1, 1, 6 )
+    randint ( r2, 1, 6 )
+    sumOfRolls := r1+r2
+    eachTotalRolled(sumOfRolls) += 1
+end for
